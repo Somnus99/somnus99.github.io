@@ -508,7 +508,9 @@ img::-moz-selection {
     font-weight: lighter;
     letter-spacing: 3px;
     color: #CCCCCC;
-    -webkit-font-smoothing: antialiased; }
+    -webkit-font-smoothing: antialiased;
+	font-size: 12px;
+	}
 
   .panel-cover {
     display: block;
@@ -733,6 +735,8 @@ img::-moz-selection {
     border-color: #666;
     color: #666;
     /*opacity: .8; */
+	font-size: 13px;
+	color: #fff;
   }
 
   .navigation__item a:hover {
