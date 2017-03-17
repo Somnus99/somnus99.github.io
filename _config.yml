@@ -1,24 +1,70 @@
-# auto: true
+# Basic
+title: 王泽周
+subtitle: 博客
+description: 欢迎来到我的博客~
+# 头像里面的标题
+avatarTitle: leopardpan
+# 头像里面的描述
+avatarDesc: iOS / 机器学习
+url: "http://somnus99.github.io"
 
-markdown: kramdown
+# Comment
+comment:
+    # disqus: Somnus99
+    duoshuo: Somnus99 
+
+# Social
+social:
+    weibo: Somnus99 
+    github: Somnus99
+    # twitter: 
+    mail: alexiph800@163.com
+
+# 百度统计 
+# 使用博客模板请去掉或者更换 id 
+baidu:
+    id: 8ba1c6be0953b6f9c2ba38e57f615421  
+
+# Google Analytics
+# 使用博客模板请去掉或者更换 id
+ga:
+    id: UA-84134159-3   
+    host: auto  
+
+
+# 《----------------- 上面的信息修改成你自己的 ---------------------------》
+#
+#
+#  _post/ 下的文章更换成你自己的文章
+#  帮忙star一下，感谢~😆 地址： https://github.com/leopardpan/leopardpan.github.io
+#
+#
+# 《--------------- 下面的信息可以自行选择是否修改 ------------------------》
+
+
+permalink: /:year/:month/:title/
+# Format
 highlighter: rouge
-paginate: 8
-permalink: /:title
-encoding: UTF-8
-gems: [jekyll-paginate]
 
-title: Somnus Blog
-url: http://somnus99.github.io
-feed: /atom.xml
-author_info: <a href="http://somnus99.github.io/">alex</a>
+textColor: #FF0000
 
-myblog:
-  gavatar: images/13548432.png
-  gpname: alex
-  linkedin: http://www.linkedin.com/in/wangzezhou
-  github: https://github.com/somnus99
-  email: mailto:alexiph800@163.com
-  coverimgs: []
-  postbgimg: []
+# supported colors: blue, green, purple, red, orange or slate. If you need clear, leave it empty.
+cover_color: clear
 
-categories: [python, books]
+# The blog button should not be removed.
+blog_button:
+    title: 博客主页
+
+# Navigation buttons in the front page.s
+nav:
+    - {title: 所有文章, description: archive, url: '/archive'}   
+    - {title: 标签, description: tags, url: '/tags'}      
+    - {title: 关于我, description: about, url: '/about'}      
+    
+
+# Pagination
+gems: [jekyll-paginate,jekyll-sitemap]
+paginate: 20
+paginate_path: "page/:num/"
+
+
